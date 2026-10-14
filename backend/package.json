@@ -1,0 +1,27 @@
+{
+  "name": "permission-detective-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Permission Detective - APK Upload & Manifest Permission Extraction",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": [
+    "apk",
+    "permissions",
+    "privacy",
+    "android",
+    "manifest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@devicefarmer/adbkit-apkreader": "^3.2.4",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "multer": "^2.4.0"
+  }
+}
